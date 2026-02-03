@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__right ul {
+  display: flex;
+  gap: 32px;
+}
+.header__right button {
+  background: #04b90b;
+  color: white;
+  width: 137px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+}
+header {
+  padding-top: 34px;
+}
+.header__right li:first-child {
+  color: #04b90b;
+}
+.header__right li {
+  color: #777e90;
+}
+
+.hero__content {
+  display: flex;
+}
+.hero__left h1 {
+  font-size: 72px;
+  font-family: "Alice", sans-serif;
+  font-weight: 400;
+}
+.hero__desc {
+  font-size: 24px;
+  color: #777e90;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 0 36px;
+}
+.hero__explore {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #04b90b;
+}
+.hero__explore button {
+  background: #04b90b;
+  color: white;
+  width: 137px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+}
+
+main {
+  padding-top: 150px;
+}
+
+.hero__left__bottom {
+  background: #f4f5f6;
+  width: 576px;
+  padding: 28px 56px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 16px;
+  margin-top: 158px;
+}
+.hero__left__bottom h3 {
+  color: #777e90;
+  font-size: 32px;
+}
+.hero__left__bottom p {
+  color: #777e90;
+  font-size: 20px;
+}
+.hero__line {
+  width: 1px;
+  height: 68px;
+  background: #e6e8ec;
+}
+
+.offers {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background: #fcfcfd;
+}
+.offers h2 {
+  font-size: 48px;
+  font-family: "Alice", sans-serif;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.offers__description {
+  font-size: 24px;
+  text-align: center;
+  color: #777e90;
+}
+
+.offers__special {
+  color: #04b90b;
+}
+
+.offers__card {
+  width: 340px;
+  box-shadow: 0 10px 27px 0 rgba(53, 53, 53, 0.3);
+  padding: 24px;
+  border-radius: 15px;
+  margin-top: 80px;
+}
+
+.offers__rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.offers__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offers__title {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Alice", sans-serif;
+}
+.offers__price button {
+  background: #04b90b;
+  color: white;
+  width: 137px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+}
+
+.offers__price h3 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #04b90b;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 20px;
+}
+
+:root {
+  --primary-color: #04b90b;
+  --neutral-8: #fcfcfd;
+  --neutral-7: #f4f5f6;
+  --neutral-6: #e6e8ec;
+  --neutral-5: #b1b5c3;
+  --neutral-4: #777e90;
+  --neutral-3: #353945;
+  --neutral-2: #23262f;
+  --neutral-1: #141416;
+  --color-tag-text-1: #04b90b;
+  --color-tag-text-2: #ea8484;
+  --color-tag-text-3: #106aab;
+  --color-tag-text-4: #f25178;
+  --color-tag-text-5: #8d31e9;
+  --color-tag-text-6: #da9f0a;
+  --color-tag-text-7: #26aca0;
+  --color-tag-text-8: #3304b9;
+  --color-tag-back-ground-1: #d3f9d5;
+  --color-tag-back-ground-2: #fcf1f1;
+  --color-tag-back-ground-3: #f1f7fc;
+  --color-tag-back-ground-4: #fce5e9;
+  --color-tag-back-ground-5: #f6eefd;
+  --color-tag-back-ground-6: #fcf6d8;
+  --color-tag-back-ground-7: #edfcfb;
+  --color-tag-back-ground-8: #f2effd;
+
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Alice", sans-serif;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+#meals .container {
+  padding: 60px 0;
+}
+
+.section__title {
+  font-family: var(--primary-color);
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--neutral-2);
+
+  margin-bottom: 107px;
+}
+
+.section__title span {
+  color: var(--color-tag-text-1);
+}
+
+.proccesses__card {
+  width: 313px;
+
+  text-align: center;
+}
+
+.proccesses_card_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: -0.01em;
+  color: var(--neutral-2);
+
+  margin-top: 24px;
+}
+
+.proccesses_card_desc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--neutral-3);
+
+  margin-top: 8px;
+}
+
+#meals .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 310px;
+}
+
+#meals .swiper-slide.swiper-slide-active {
+  box-shadow: 0 10px 27px 0 rgba(53, 53, 53, 0.05) !important;
+  background: #fff !important;
+}
+
+
+footer{
+  margin-top: 100px;
+}
+
+.footer-foodz{
+  display: flex;
+  gap: 150px;
+}
+.title{
+  width: 336px;
+  height: 134px;
+  text-align: center;
+}
+

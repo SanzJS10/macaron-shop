@@ -297,7 +297,7 @@ footer{
 
 .footer-foodz{
   display: flex;
-  gap: 150px;
+  gap: 170px;
 }
 .title{
   width: 336px;
@@ -305,9 +305,20 @@ footer{
   text-align: center;
 }
 
+.title img {
+  margin-bottom: 20px;
+}
+
 .header__burger {
   display: none;
 }
+
+.still {
+  color: #141416;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 
 @media (max-width: 500px) {
   .header__nav img {
